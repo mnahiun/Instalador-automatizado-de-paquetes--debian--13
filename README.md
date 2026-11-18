@@ -30,7 +30,6 @@ Desarrollado y probado sobre Debian 13 usando visual studio code dentro la maqui
 
 - Permisos de administrador (`sudo`), porque `apt` necesita privilegios para instalar paquetes.
 - Conexión a internet para descargar los paquetes de los repositorios.
-- Utilidades estándar de Debian: `apt-get`, `grep`, `date`.
 ## Instalación
  
 Clonar el repositorio en la máquina virtual Debian:
