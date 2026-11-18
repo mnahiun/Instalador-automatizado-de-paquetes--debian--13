@@ -1,3 +1,3 @@
-# Instalador-automatizado-de-paquetes Debian 13
+#  Proyecto Instalador Automatizado de Paquetes en Terminal --Debian 13
 
 
