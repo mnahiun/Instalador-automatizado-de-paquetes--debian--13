@@ -194,19 +194,9 @@ Resumen: 8 instalados, 1 fallidos
  
 ## Ejecución de pruebas
 
+# 1. Probar los programas instalados
  
-`
-En la primera columna, `ii` indica que el paquete está instalado correctamente.
- 
-Para comprobar que los comandos existen:
- 
-```bash
-which git curl htop tree duma tmux nano
-```
- 
-### 3. Probar los programas instalados
- 
-Usar los comandos de la tabla [Paquetes incluidos y cómo ejecutarlos](#paquetes-incluidos-y-cómo-ejecutarlos). Por ejemplo:
+Usar los comandos de la tabla [Ejecucion de los paquetes](#ejecucion-paquetes). Por ejemplo:
  
 ```bash
 git --version
