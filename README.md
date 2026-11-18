@@ -5,7 +5,7 @@
 
 Script Bash que lee una lista de paquetes desde  un archivo de texto  plano y los instala con apt, verificando dependencias y registrando exitos y fallos en un achivo de log.Es util para el aprovisionamiento de entornos 
 
-Desarrolado y probado sobre Debian 13 usando visual studio code dentro la maquina virtual 
+Desarrollado y probado sobre Debian 13 usando visual studio code dentro la maquina virtual 
 
 
 # Tabla de contenido
@@ -194,7 +194,7 @@ Resumen: 8 instalados, 1 fallidos
  
 ## Ejecución de pruebas
 
-# 1. Probar los programas instalados
+### 1. Probar los programas instalados
  
 Usar los comandos de la tabla [Ejecucion de los paquetes](#ejecucion-paquetes). Por ejemplo:
  
@@ -205,7 +205,7 @@ tree
 htop
 ```
  
-### 4. Probar el manejo de errores
+### 2. Probar el manejo de errores
  
 Sin argumentos, el script debe mostrar el modo de uso:
  
