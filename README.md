@@ -192,8 +192,7 @@ Resumen: 8 instalados, 1 fallidos
 > El log usa `>>`, por lo que **acumula** las ejecuciones. Para obtener un registro limpio: `rm instalacion.log` antes de volver a ejecutar.
  
 ## Ejecución de pruebas
- 
-### 1. Verificar la sintaxis del script
+
  
 `
 En la primera columna, `ii` indica que el paquete está instalado correctamente.
