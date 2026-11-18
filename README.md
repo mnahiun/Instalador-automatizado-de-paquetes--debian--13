@@ -241,21 +241,6 @@ Con `DOM` en la lista, el log debe registrar un `[FALLO]`.
 - No distingue si un paquete ya estaba instalado: en ese caso `apt` termina sin error y se registra como `[INSTALADO]`.
 - No comprueba si se ejecutó con `sudo`; sin privilegios, todos los paquetes se registrarán como fallidos.
 - El log se acumula entre ejecuciones y no incluye la hora de cada paquete.
-## Publicación en GitHub
- 
-```bash
-git init
-git config user.name "[Tu nombre]"
-git config user.email "[tu-correo]"
-git add .
-git commit -m "feat: versión inicial del instalador automatizado de paquetes"
-git branch -M main
-git remote add origin https://github.com/mnahiun/Instalador-automatizado-de-paquetes--debian--13.git
-git push -u origin main
-```
- 
-GitHub ya no acepta la contraseña de la cuenta para operaciones de Git por HTTPS: al hacer `git push`, usar como contraseña un **token de acceso personal** (*Settings → Developer settings → Personal access tokens*) o configurar una clave SSH.
- 
 
 
   
