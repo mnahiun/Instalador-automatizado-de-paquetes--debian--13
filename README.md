@@ -1,11 +1,11 @@
-#  Proyecto Instalador Automatizado de Paquetes en Terminal --Debian 13
+#  Proyecto Instalador Automatizado de Paquetes en Terminal -Debian 13
 
 ![Shell](https://img.shields.io/badge/shell-bash-4EAA25?logo=gnubash&logoColor=white)
 ![Debian](https://img.shields.io/badge/OS-Debian%2013-A81D33?logo=debian&logoColor=white)
 
 Script Bash que lee una lista de paquetes desde  un archivo de texto  plano y los instala con apt, verificando dependencias y registrando exitos y fallos en un achivo de log.Es util para el aprovisionamiento de entornos. 
 
-Desarrollado y probado sobre Debian 13 usando visual studio code dentro la maquina virtual. 
+Desarrollado y probado sobre Debian 13 usando Visual Studio Code dentro la maquina virtual. 
 
 
 # Tabla de contenido
@@ -13,7 +13,7 @@ Desarrollado y probado sobre Debian 13 usando visual studio code dentro la maqui
 2.  [Instalación](#instalación)
 3. [Estructura del proyecto](#estructura-del-proyecto)
 4. [Formato de la lista de paquetes](#formato-lista-paquetes)
-5. [Ejecucion de los paquetes](#ejecucion-paquetes)
+5. [Ejecución de los paquetes](#ejecucion-paquetes)
 6. [Listado de scripts](#listado-de-scripts)
 7. [Ejecución de los scripts](#ejecución-de-los-scripts)
 8. [Ejecución de pruebas](#ejecución-de-pruebas)
@@ -57,7 +57,7 @@ Resultado esperado: `-rwxr-xr-x`.
  
 ```
 Instalador-automatizado-de-paquetes--debian--13/
-├── Instalador_automatizado_de_paquetes.sh   # script principal
+├── Instalador_automatizado_de_paquetes.sh   # script instalador automatizado 
 ├── paquetes.txt                             # lista de paquetes a instalar
 ├── instalacion.log                          # registro generado por el script
 └── README.md
