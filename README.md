@@ -17,7 +17,7 @@ Desarrollado y probado sobre Debian 13 usando visual studio code dentro la maqui
 6. [Listado de scripts](#listado-de-scripts)
 7. [Ejecución de los scripts](#ejecución-de-los-scripts)
 8. [Ejecución de pruebas](#ejecución-de-pruebas)
-9. [Autor](#autor)
+9. [Autores](#autores)
 
 ## Requisitos previos
 
@@ -218,7 +218,7 @@ sudo ./Instalador_automatizado_de_paquetes.sh
  
 Con `DOM` en la lista, el log debe registrar un `[FALLO]`.
 
-## Autor
+## Autores
  
 **Nahin Alfonso Duarte Mateus, Bryan Steban Ariza, Richard Andres Useche**
  
