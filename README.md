@@ -9,7 +9,7 @@ Desarrolado y probado sobre Debian 13 usando visual studio code dentro la maquin
 
 
 # Tabla de contenido
-1. [Requisitos previos](#
+1. [Requisitos previos](#requisitos-previos)
 2.  [Instalación](#instalación)
 3. [Estructura del proyecto](#estructura-del-proyecto)
 4. [Listado de scripts](#listado-de-scripts)
