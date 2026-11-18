@@ -96,8 +96,8 @@ DOM
 | `htop` | Monitor de procesos en tiempo real. | `htop` (salir con `q`) |
 | `tree` | Muestra carpetas y archivos en forma de árbol. | `tree` |
 | `duma` | Detecta errores de memoria en programas C/C++. | `duma ls` |
-| `tmux` | Varias sesiones y paneles en una sola terminal. | `tmux` (atajos con `Ctrl + b`; salir con `exit`) |
-| `nano` | Editor de texto para la terminal. | `nano archivo.txt` (guardar con `Ctrl + O`, salir con `Ctrl + X`) |
+| `tmux` | Varias sesiones y paneles en una sola terminal. | `tmux` |
+| `nano` | Editor de texto para la terminal. | `nano archivo.txt` |
 | `ace-of-penguins` | Colección de juegos de cartas (requiere entorno gráfico). | `ace-freecell` |
 | `DOM` | No existe en los repositorios; provoca un fallo a propósito. | No aplica. |
  
@@ -202,6 +202,10 @@ git --version
 curl --version
 tree
 htop
+duma ls
+tmux
+nano archvo.txt
+ace-of-penguins` ace-freecell
 ```
  
 ### 2. Probar el manejo de errores
