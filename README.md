@@ -195,18 +195,7 @@ Resumen: 8 instalados, 1 fallidos
  
 ### 1. Verificar la sintaxis del script
  
-```bash
-bash -n Instalador_automatizado_de_paquetes.sh
-```
- 
-Si no imprime nada, la sintaxis es correcta.
- 
-### 2. Verificar que los paquetes quedaron instalados
- 
-```bash
-dpkg -l git curl htop tree duma tmux nano ace-of-penguins
-```
- 
+`
 En la primera columna, `ii` indica que el paquete está instalado correctamente.
  
 Para comprobar que los comandos existen:
@@ -236,11 +225,7 @@ sudo ./Instalador_automatizado_de_paquetes.sh
  
 Con `DOM` en la lista, el log debe registrar un `[FALLO]`.
  
-## Limitaciones
- 
-- No distingue si un paquete ya estaba instalado: en ese caso `apt` termina sin error y se registra como `[INSTALADO]`.
-- No comprueba si se ejecutó con `sudo`; sin privilegios, todos los paquetes se registrarán como fallidos.
-- El log se acumula entre ejecuciones y no incluye la hora de cada paquete.
+
 
 
   
