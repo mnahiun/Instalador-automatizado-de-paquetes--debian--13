@@ -18,4 +18,12 @@ Desarrolado y probado sobre Debian 13 usando visual studio code dentro la maquin
 7. [Publicación en GitHub y GitLab](#publicación-en-github-y-gitlab)
 8. [Autor](#autor)
 
+## Requisitos previos
+
+- Máquina virtual con **Debian 13 (Trixie)** instalada.
+- Intérprete **Bash** (incluido por defecto en Debian). Verificar versión:
+  ```bash
+  bash --version
+  ```
+
 
