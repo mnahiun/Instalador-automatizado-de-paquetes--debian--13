@@ -5,7 +5,7 @@
 
 Script Bash que lee una lista de paquetes desde  un archivo de texto  plano y los instala con apt, verificando dependencias y registrando exitos y fallos en un achivo de log.Es util para el aprovisionamiento de entornos. 
 
-Desarrollado y probado sobre Debian 13 usando Visual Studio Code dentro la maquina virtual. 
+Desarrollado y probado sobre Debian 13 usando Visual Studio Code dentro la maquina virtual de Oracle VirtualBox. 
 
 
 # Tabla de contenido
