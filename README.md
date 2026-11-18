@@ -217,6 +217,12 @@ sudo ./Instalador_automatizado_de_paquetes.sh
 ```
  
 Con `DOM` en la lista, el log debe registrar un `[FALLO]`.
+
+## Autor
+ 
+**Nahin Alfonso Duarte Mateus, Bryan Steban Ariza, Richard Andres Useche]**
+ 
+
  
 
 
