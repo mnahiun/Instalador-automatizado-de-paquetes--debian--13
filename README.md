@@ -12,18 +12,19 @@ Desarrolado y probado sobre Debian 13 usando visual studio code dentro la maquin
 1. [Requisitos previos](#requisitos-previos)
 2.  [Instalación](#instalación)
 3. [Estructura del proyecto](#estructura-del-proyecto)
-4. [Listado de scripts](#listado-de-scripts)
-5. [Ejecución de los scripts](#ejecución-de-los-scripts)
-6. [Ejecución de pruebas](#ejecución-de-pruebas)
-7. [Publicación en GitHub y GitLab](#publicación-en-github-y-gitlab)
-8. [Autor](#autor)
+4. [Formato de la lista de paquetes](#formato-lista-paquetes)
+5. [Ejecucion de los paquetes](#ejecucion-paquetes)
+6. [Listado de scripts](#listado-de-scripts)
+7. [Ejecución de los scripts](#ejecución-de-los-scripts)
+8. [Ejecución de pruebas](#ejecución-de-pruebas)
+9. [Autor](#autor)
 
 ## Requisitos previos
 
 - Máquina virtual con **Debian 13 (Trixie)** instalada.
 - Intérprete **Bash** (incluido por defecto en Debian). Verificar versión:
-  ```
-  bash
+  
+  ```bash
   bash --version
   ```
 
@@ -85,9 +86,9 @@ DOM
  
 `DOM` **no es un paquete de Debian**: se incluye a propósito para demostrar que el script detecta y registra los fallos.
  
-> Los nombres de paquetes deben escribirse exactamente como aparecen en [packages.debian.org](https://packages.debian.org), en minúsculas y sin espacios.
+> Los nombres de paquetes deben escribirse exactamente como aparecen en [packages.debian.org](https://packages.debian.org).
  
-## Paquetes incluidos y cómo ejecutarlos
+## Ejecucion paquetes
  
 | Paquete | Descripción | Comando para ejecutarlo |
 |---|---|---|
@@ -119,10 +120,10 @@ tmux
 nano paquetes.txt
 ```
  
-**`ace-of-penguins`**: para ver los nombres exactos de sus juegos:
+**`ace-of-penguins`**: para ver el juego del solitario:
  
 ```bash
-dpkg -L ace-of-penguins | grep -E "/usr/(games|bin)/"
+ace-freecell
 ```
  
 > `nano` suele venir preinstalado en Debian. En ese caso, `apt` termina sin error y el script lo registra igual como `[INSTALADO]`.
