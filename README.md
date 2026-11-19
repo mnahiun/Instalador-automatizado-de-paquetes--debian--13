@@ -57,9 +57,10 @@ Resultado esperado: `-rwxr-xr-x`.
  
 ```
 Instalador-automatizado-de-paquetes--debian--13/
-├── Instalador_automatizado_de_paquetes.sh   # script instalador automatizado 
-├── paquetes.txt                             # lista de paquetes a instalar
-├── instalacion.log                          # registro generado por el script
+├── src/   
+│   ├── Instalador_automatizado_de_paquetes.sh   # script instalador automatizado 
+│   ├── paquetes.txt                             # lista de paquetes a instalar
+│   ├── instalacion.log                          # registro generado por el script
 └── README.md
 ```
  
